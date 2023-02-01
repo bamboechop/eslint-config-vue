@@ -1,11 +1,11 @@
-# @bamboechop/eslint-config-quasar-2
+# @bamboechop/eslint-config-vue
 
-This ESLint config package contains my preferred set of ESLint rules for a Quasar 2 (Vue 3) based frontend project.
+This ESLint config package contains my preferred set of ESLint rules for a Vue 3 based frontend project.
 
 ## Installation
 
 ```
-npm install --save-dev @bamboechop/eslint-config-quasar-2
+npm install --save-dev @bamboechop/eslint-config-vue
 ```
 
 ## Usage
