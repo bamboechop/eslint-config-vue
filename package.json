@@ -1,0 +1,24 @@
+{
+  "name": "@bamboechop/eslint-config-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "audit": "npx --yes better-npm-audit audit -l high -r https://registry.npmjs.org/",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "version": "node -p \"require('./package.json').version\""
+  },
+  "publishConfig": {
+    "registry": "https://nexus.ringana.com/repository/npm-hosted/"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^5.12.1",
+    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-import-quotes": "^0.0.1",
+    "eslint-plugin-vue": "^8.5.0"
+  },
+  "author": "bamboechop <info@bamboechop.at>",
+  "license": "ISC"
+}
